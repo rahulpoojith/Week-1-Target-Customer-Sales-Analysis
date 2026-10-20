@@ -12,14 +12,41 @@ This project explores an Amazon product dataset with beginner-friendly Python no
 
 ## Analysis
 
-The analysis notebook answers six questions:
+The analysis notebook answers six questions with five graphs and one table.
 
-1. **What is the average rating for each category?** A bar chart compares average ratings. OfficeProducts averages 4.31 across 31 listings; categories with only one or two products should be compared cautiously.
-2. **Which products have the most ratings in each category?** A bar chart shows the top product in each category, and a table lists the top three. Several Electronics listings have 426,973 ratings each.
-3. **How do discounted prices compare with actual prices?** Overlapping histograms show both price distributions. The median actual price is INR 1,795, compared with INR 899 for the median discounted price.
-4. **How does the average discount vary by category?** A horizontal bar chart compares category averages. HomeImprovement averages 57.5%, but has only two listings; Computers & Accessories averages 53.1% across 373 listings.
-5. **Which product names are most popular?** A bar chart shows the ten listings with the most ratings. An AmazonBasics HDMI cable leads with 426,973 ratings.
-6. **What do reviews for the most-rated products say?** A table shows sample review titles for the five listings with the most ratings. Examples include phrases such as "good" and "value for money." The source combines several titles in each product row.
+### 1. What is the average rating for each category?
+
+OfficeProducts averages 4.31 across 31 listings. Categories with only one or two products should be compared cautiously.
+
+![Average product rating by category](Data_processing/question1_average_ratings.png)
+
+### 2. Which products have the most ratings in each category?
+
+Several Electronics listings have 426,973 ratings each. The notebook also includes a table of the top three products per category.
+
+![Top product by rating count in each category](Data_processing/question2_top_product_by_category.png)
+
+### 3. How do discounted prices compare with actual prices?
+
+The median actual price is INR 1,795, compared with INR 899 for the median discounted price.
+
+![Actual and discounted price distributions](Data_processing/question3_actual_vs_discounted_prices.png)
+
+### 4. How does the average discount vary by category?
+
+HomeImprovement averages 57.5%, but has only two listings. Computers & Accessories averages 53.1% across 373 listings.
+
+![Average discount by category](Data_processing/question4_average_discount_by_category.png)
+
+### 5. Which product names are most popular?
+
+An AmazonBasics HDMI cable leads with 426,973 ratings.
+
+![Ten products with the most ratings](Data_processing/question5_top_products.png)
+
+### 6. What do reviews for the most-rated products say?
+
+A table shows sample review titles for the five listings with the most ratings. Examples include phrases such as "good" and "value for money." The source combines several titles in each product row.
 
 Rating counts indicate review activity, not confirmed sales. The dataset does not contain orders or sales dates.
 
