@@ -9,7 +9,7 @@ This project explores an Amazon product dataset with  Python notebooks.
 - `Data_processing/clean.ipynb`: data cleaning steps.
 - `Data_processing/analysis.ipynb`: analysis tables, charts, and findings.
 - `Packages/requirements.txt`: Python packages used in the project.
-- `Packages/import.oy`: Python file used to import Dataset from Kaggle using kagglehub
+- `Packages/import.py`: Python file used to import Dataset from Kaggle using kagglehub
 
 ## Analysis
 
