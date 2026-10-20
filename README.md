@@ -1,6 +1,6 @@
 # Week-1-Target-Customer-Sales-Analysis
 
-This project explores an Amazon product dataset with beginner-friendly Python notebooks.
+This project explores an Amazon product dataset with  Python notebooks.
 
 ## Project Files
 
